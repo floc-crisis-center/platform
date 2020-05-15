@@ -1,0 +1,199 @@
+{
+  "utter_greet": [
+    {
+      "text": "Hello, I will assist you in building an infobot. Allow me to gather content for your bot."
+    }
+  ],
+  "utter_goodbye": [
+    {
+      "text": "Bye now"
+    }
+  ],
+  "utter_got_it_welcome_message": [
+    {
+      "text": "Alrighty. Now let's setup each main menu option"
+    }
+  ],
+  "utter_ask_welcome_message": [
+    {
+      "custom": {
+        "data": [
+          {
+            "type": "textbox",
+            "text": "Please enter the welcome message for your bot",
+            "submitLabel": "Send"
+          }
+        ]
+      }
+    }
+  ],
+  "utter_ask_main_menu_message": [
+    {
+      "custom": {
+        "data": [
+          {
+            "type": "textbox",
+            "text": "Please enter the message for the main menu",
+            "submitLabel": "Send"
+          }
+        ]
+      }
+    }
+  ],
+  "utter_ask_main_menu_options_count": [
+    {
+      "custom": {
+        "data": [
+          {
+            "type": "number",
+            "min": "1",
+            "max": "5",
+            "text": "How many main menu options do you want to create (between 1 and 5)?"
+          }
+        ]
+      }
+    }
+  ],
+  "utter_ask_main_menu_option_1": [
+    {
+      "custom": {
+        "data": [
+          {
+            "type": "textbox",
+            "text": "Please enter the message for main menu, option 1",
+            "submitLabel": "Send"
+          }
+        ]
+      }
+    }
+  ],
+  "utter_ask_main_menu_option_1_d": [
+    {
+      "custom": {
+        "data": [
+          {
+            "type": "textbox",
+            "text": "Please enter the response when user selects option 1",
+            "submitLabel": "Send"
+          }
+        ]
+      }
+    }
+  ],
+  "utter_ask_main_menu_option_2": [
+    {
+      "custom": {
+        "data": [
+          {
+            "type": "textbox",
+            "text": "Please enter the message for main menu, option 2",
+            "submitLabel": "Send"
+          }
+        ]
+      }
+    }
+  ],
+  "utter_ask_main_menu_option_2_d": [
+    {
+      "custom": {
+        "data": [
+          {
+            "type": "textbox",
+            "text": "Please enter the response when user selects option 2",
+            "submitLabel": "Send"
+          }
+        ]
+      }
+    }
+  ],
+  "utter_ask_main_menu_option_3": [
+    {
+      "custom": {
+        "data": [
+          {
+            "type": "textbox",
+            "text": "Please enter the message for main menu, option 3",
+            "submitLabel": "Send"
+          }
+        ]
+      }
+    }
+  ],
+  "utter_ask_main_menu_option_3_d": [
+    {
+      "custom": {
+        "data": [
+          {
+            "type": "textbox",
+            "text": "Please enter the response when user selects option 3",
+            "submitLabel": "Send"
+          }
+        ]
+      }
+    }
+  ],
+  "utter_ask_main_menu_option_4": [
+    {
+      "custom": {
+        "data": [
+          {
+            "type": "textbox",
+            "text": "Please enter the message for main menu, option 4",
+            "submitLabel": "Send"
+          }
+        ]
+      }
+    }
+  ],
+  "utter_ask_main_menu_option_4_d": [
+    {
+      "custom": {
+        "data": [
+          {
+            "type": "textbox",
+            "text": "Please enter the response when user selects option 4",
+            "submitLabel": "Send"
+          }
+        ]
+      }
+    }
+  ],
+  "utter_ask_main_menu_option_5": [
+    {
+      "custom": {
+        "data": [
+          {
+            "type": "textbox",
+            "text": "Please enter the message for main menu, option 5",
+            "submitLabel": "Send"
+          }
+        ]
+      }
+    }
+  ],
+  "utter_ask_main_menu_option_5_d": [
+    {
+      "custom": {
+        "data": [
+          {
+            "type": "textbox",
+            "text": "Please enter the response when user selects option 5",
+            "submitLabel": "Send"
+          }
+        ]
+      }
+    }
+  ],
+  "utter_got_options_message": [
+    {
+      "custom": {
+        "data": [
+          {
+            "type": "close",
+            "text": "Thank you for providing the content. Please wait while I prepare the bot"
+          }
+        ]
+      }
+    }
+  ]
+}
