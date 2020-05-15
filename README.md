@@ -1,6 +1,6 @@
 # Floc Crisis Center Platform
 
-Built and Deploy Infobots using [Rasa](https://github.com/RasaHQ/rasa)
+Build and deploy infobots using [Rasa](https://github.com/RasaHQ/rasa)
 
 ## Introduction
 Floc Crisis Center (FCC) is an open source tool that helps you quickly build infobots. Based on the specific topic that the infobot is built for, it can hold simple conversations with the user to relevant information in the form of menus and submenus.
