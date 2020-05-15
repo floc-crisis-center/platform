@@ -17,6 +17,6 @@ FCC platform is developed on top of [vert.x](http://vertx.io/) using JDK 11.
 
 To start contributing, do the following:
 * Install the latest version of JDK 11.
-* Use git to clone the source code from https://github.com/buildpal/buildpal-platform.git
+* Use git to clone the source code from https://github.com/floc-crisis-center/platform
 * FCC uses maven. Build the code by running the maven wrapper "mvnw clean install"
 * To start the server, run "java -jar target/crisis-center-1.0.0-SNAPSHOT-fat.jar"
